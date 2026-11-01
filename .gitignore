@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+.venv/
+input/*.tsv
+input/.massspecgym-*
+figures/data/
+figures/audit/
+figures/.matplotlib/

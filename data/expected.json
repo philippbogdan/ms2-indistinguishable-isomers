@@ -1,0 +1,1263 @@
+{
+  "description": "Fixed reference values for the pinned public input. Rounded claims are checked at their reported precision; exact counts remain exact.",
+  "checks": [
+    {
+      "path": [
+        "coverage",
+        "recorded_condition",
+        "n"
+      ],
+      "value": 231104
+    },
+    {
+      "path": [
+        "coverage",
+        "recorded_condition",
+        "within"
+      ],
+      "value": 121707
+    },
+    {
+      "path": [
+        "coverage",
+        "keys_in_multiple_folds"
+      ],
+      "value": 0
+    },
+    {
+      "path": [
+        "units",
+        "n"
+      ],
+      "value": 62535
+    },
+    {
+      "path": [
+        "units",
+        "within"
+      ],
+      "value": 11554
+    },
+    {
+      "path": [
+        "query_spectra"
+      ],
+      "value": 33114
+    },
+    {
+      "path": [
+        "molecules"
+      ],
+      "value": 6316
+    },
+    {
+      "path": [
+        "formulas"
+      ],
+      "value": 2260
+    },
+    {
+      "path": [
+        "pairs",
+        "n"
+      ],
+      "value": 6949
+    },
+    {
+      "path": [
+        "ordered_pairs",
+        "n"
+      ],
+      "value": 13898
+    },
+    {
+      "path": [
+        "unscorable_repeats"
+      ],
+      "value": 0
+    },
+    {
+      "path": [
+        "unscorable_units"
+      ],
+      "value": 0
+    },
+    {
+      "path": [
+        "repeats",
+        "train",
+        "n"
+      ],
+      "value": 62328
+    },
+    {
+      "path": [
+        "repeats",
+        "val",
+        "n"
+      ],
+      "value": 3304
+    },
+    {
+      "path": [
+        "repeats",
+        "test",
+        "n"
+      ],
+      "value": 3500
+    },
+    {
+      "path": [
+        "duplicates",
+        "of_all_units",
+        "within"
+      ],
+      "value": 897
+    },
+    {
+      "path": [
+        "duplicates",
+        "molecule_pairs"
+      ],
+      "value": 128
+    },
+    {
+      "path": [
+        "duplicates",
+        "without_duplicates_all_denominator",
+        "within"
+      ],
+      "value": 10657
+    },
+    {
+      "path": [
+        "duplicates",
+        "without_duplicates_reduced_denominator",
+        "n"
+      ],
+      "value": 61638
+    },
+    {
+      "path": [
+        "duplicates",
+        "nonidentical_score_at_least_0_99"
+      ],
+      "value": 1165
+    },
+    {
+      "path": [
+        "query_repeat_agreement",
+        "given_within",
+        "n"
+      ],
+      "value": 29782
+    },
+    {
+      "path": [
+        "query_repeat_agreement",
+        "given_outside",
+        "n"
+      ],
+      "value": 112142
+    },
+    {
+      "path": [
+        "collision_energy_zero_units"
+      ],
+      "value": 72
+    },
+    {
+      "path": [
+        "breakdowns",
+        "collision_energy_outside_bands",
+        "n"
+      ],
+      "value": 72
+    },
+    {
+      "path": [
+        "example",
+        "query_fragment_peaks"
+      ],
+      "value": 13
+    },
+    {
+      "path": [
+        "example",
+        "identical_peak_list"
+      ],
+      "value": false
+    },
+    {
+      "path": [
+        "threshold"
+      ],
+      "value": 0.7724635521617974,
+      "absolute_tolerance": 5e-13
+    },
+    {
+      "path": [
+        "units",
+        "fraction"
+      ],
+      "value": 0.18476053410090348,
+      "absolute_tolerance": 1e-15
+    },
+    {
+      "path": [
+        "repeats",
+        "val",
+        "fraction"
+      ],
+      "value": 0.989406779661017,
+      "absolute_tolerance": 1e-15
+    },
+    {
+      "path": [
+        "repeats",
+        "test",
+        "fraction"
+      ],
+      "value": 0.9922857142857143,
+      "absolute_tolerance": 1e-15
+    },
+    {
+      "path": [
+        "coverage",
+        "recorded_condition",
+        "percent"
+      ],
+      "value": 52.7,
+      "decimals": 1
+    },
+    {
+      "path": [
+        "repeats",
+        "train",
+        "percent"
+      ],
+      "value": 99.0,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "repeats",
+        "val",
+        "percent"
+      ],
+      "value": 98.94,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "repeats",
+        "test",
+        "percent"
+      ],
+      "value": 99.23,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "pairs",
+        "at_least_one",
+        "percent"
+      ],
+      "value": 17.33,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "pairs",
+        "at_least_half",
+        "percent"
+      ],
+      "value": 13.12,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "pairs",
+        "all",
+        "percent"
+      ],
+      "value": 7.57,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "ordered_pairs",
+        "at_least_one",
+        "percent"
+      ],
+      "value": 16.44,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "ordered_pairs",
+        "at_least_half",
+        "percent"
+      ],
+      "value": 13.41,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "duplicates",
+        "of_all_units",
+        "percent"
+      ],
+      "value": 1.43,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "duplicates",
+        "of_within_units",
+        "percent"
+      ],
+      "value": 7.76,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "duplicates",
+        "without_duplicates_all_denominator",
+        "percent"
+      ],
+      "value": 17.04,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "duplicates",
+        "without_duplicates_reduced_denominator",
+        "percent"
+      ],
+      "value": 17.29,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "query_repeat_agreement",
+        "given_within",
+        "percent"
+      ],
+      "value": 83.71,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "query_repeat_agreement",
+        "given_outside",
+        "percent"
+      ],
+      "value": 95.68,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "best_reference_different_condition",
+        "percent"
+      ],
+      "value": 47.5,
+      "decimals": 1
+    },
+    {
+      "path": [
+        "example",
+        "score"
+      ],
+      "value": 0.99886,
+      "decimals": 5
+    },
+    {
+      "path": [
+        "example",
+        "formula"
+      ],
+      "value": "C9H16ClN5"
+    },
+    {
+      "path": [
+        "example",
+        "condition"
+      ],
+      "value": "[M+H]+|Orbitrap|60.0"
+    },
+    {
+      "path": [
+        "breakdowns",
+        "instrument",
+        "Orbitrap",
+        "n"
+      ],
+      "value": 35571
+    },
+    {
+      "path": [
+        "breakdowns",
+        "instrument",
+        "Orbitrap",
+        "percent"
+      ],
+      "value": 16.28,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "instrument",
+        "QTOF",
+        "n"
+      ],
+      "value": 26964
+    },
+    {
+      "path": [
+        "breakdowns",
+        "instrument",
+        "QTOF",
+        "percent"
+      ],
+      "value": 21.37,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "adduct",
+        "[M+H]+",
+        "n"
+      ],
+      "value": 62069
+    },
+    {
+      "path": [
+        "breakdowns",
+        "adduct",
+        "[M+H]+",
+        "percent"
+      ],
+      "value": 18.49,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "adduct",
+        "[M+Na]+",
+        "n"
+      ],
+      "value": 466
+    },
+    {
+      "path": [
+        "breakdowns",
+        "adduct",
+        "[M+Na]+",
+        "percent"
+      ],
+      "value": 16.52,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "collision_energy",
+        "(0,20]",
+        "n"
+      ],
+      "value": 29378
+    },
+    {
+      "path": [
+        "breakdowns",
+        "collision_energy",
+        "(0,20]",
+        "percent"
+      ],
+      "value": 18.91,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "collision_energy",
+        "(20,30]",
+        "n"
+      ],
+      "value": 7779
+    },
+    {
+      "path": [
+        "breakdowns",
+        "collision_energy",
+        "(20,30]",
+        "percent"
+      ],
+      "value": 20.0,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "collision_energy",
+        "(30,40]",
+        "n"
+      ],
+      "value": 6396
+    },
+    {
+      "path": [
+        "breakdowns",
+        "collision_energy",
+        "(30,40]",
+        "percent"
+      ],
+      "value": 19.9,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "collision_energy",
+        "(40,60]",
+        "n"
+      ],
+      "value": 16503
+    },
+    {
+      "path": [
+        "breakdowns",
+        "collision_energy",
+        "(40,60]",
+        "percent"
+      ],
+      "value": 13.39,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "collision_energy",
+        "over 60",
+        "n"
+      ],
+      "value": 2407
+    },
+    {
+      "path": [
+        "breakdowns",
+        "collision_energy",
+        "over 60",
+        "percent"
+      ],
+      "value": 39.14,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fragment_peaks",
+        "0 to 2",
+        "n"
+      ],
+      "value": 3187
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fragment_peaks",
+        "0 to 2",
+        "percent"
+      ],
+      "value": 25.64,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fragment_peaks",
+        "3 to 5",
+        "n"
+      ],
+      "value": 6618
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fragment_peaks",
+        "3 to 5",
+        "percent"
+      ],
+      "value": 22.35,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fragment_peaks",
+        "6 to 10",
+        "n"
+      ],
+      "value": 10611
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fragment_peaks",
+        "6 to 10",
+        "percent"
+      ],
+      "value": 23.08,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fragment_peaks",
+        "11 to 20",
+        "n"
+      ],
+      "value": 15087
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fragment_peaks",
+        "11 to 20",
+        "percent"
+      ],
+      "value": 18.49,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fragment_peaks",
+        "21 to 50",
+        "n"
+      ],
+      "value": 18834
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fragment_peaks",
+        "21 to 50",
+        "percent"
+      ],
+      "value": 15.38,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fragment_peaks",
+        "over 50",
+        "n"
+      ],
+      "value": 8198
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fragment_peaks",
+        "over 50",
+        "percent"
+      ],
+      "value": 13.7,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "precursor_mz",
+        "up to 200",
+        "n"
+      ],
+      "value": 11682
+    },
+    {
+      "path": [
+        "breakdowns",
+        "precursor_mz",
+        "up to 200",
+        "percent"
+      ],
+      "value": 21.92,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "precursor_mz",
+        "(200,300]",
+        "n"
+      ],
+      "value": 14764
+    },
+    {
+      "path": [
+        "breakdowns",
+        "precursor_mz",
+        "(200,300]",
+        "percent"
+      ],
+      "value": 18.78,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "precursor_mz",
+        "(300,400]",
+        "n"
+      ],
+      "value": 19696
+    },
+    {
+      "path": [
+        "breakdowns",
+        "precursor_mz",
+        "(300,400]",
+        "percent"
+      ],
+      "value": 9.77,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "precursor_mz",
+        "(400,500]",
+        "n"
+      ],
+      "value": 9534
+    },
+    {
+      "path": [
+        "breakdowns",
+        "precursor_mz",
+        "(400,500]",
+        "percent"
+      ],
+      "value": 23.23,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "precursor_mz",
+        "over 500",
+        "n"
+      ],
+      "value": 6859
+    },
+    {
+      "path": [
+        "breakdowns",
+        "precursor_mz",
+        "over 500",
+        "percent"
+      ],
+      "value": 30.33,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fold_pair",
+        "train-train",
+        "n"
+      ],
+      "value": 54106
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fold_pair",
+        "train-train",
+        "percent"
+      ],
+      "value": 20.71,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fold_pair",
+        "val-val",
+        "n"
+      ],
+      "value": 861
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fold_pair",
+        "val-val",
+        "percent"
+      ],
+      "value": 13.01,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fold_pair",
+        "test-test",
+        "n"
+      ],
+      "value": 932
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fold_pair",
+        "test-test",
+        "percent"
+      ],
+      "value": 21.89,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fold_pair",
+        "test-train",
+        "n"
+      ],
+      "value": 2912
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fold_pair",
+        "test-train",
+        "percent"
+      ],
+      "value": 0.52,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fold_pair",
+        "train-val",
+        "n"
+      ],
+      "value": 2913
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fold_pair",
+        "train-val",
+        "percent"
+      ],
+      "value": 0.51,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fold_pair",
+        "test-val",
+        "n"
+      ],
+      "value": 811
+    },
+    {
+      "path": [
+        "breakdowns",
+        "fold_pair",
+        "test-val",
+        "percent"
+      ],
+      "value": 0.49,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "query_fold",
+        "train",
+        "n"
+      ],
+      "value": 57043
+    },
+    {
+      "path": [
+        "breakdowns",
+        "query_fold",
+        "train",
+        "percent"
+      ],
+      "value": 19.67,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "query_fold",
+        "val",
+        "n"
+      ],
+      "value": 2718
+    },
+    {
+      "path": [
+        "breakdowns",
+        "query_fold",
+        "val",
+        "percent"
+      ],
+      "value": 4.49,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "breakdowns",
+        "query_fold",
+        "test",
+        "n"
+      ],
+      "value": 2774
+    },
+    {
+      "path": [
+        "breakdowns",
+        "query_fold",
+        "test",
+        "percent"
+      ],
+      "value": 7.71,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "sensitivity",
+        "0.5%",
+        "threshold"
+      ],
+      "value": 0.6913,
+      "decimals": 4
+    },
+    {
+      "path": [
+        "sensitivity",
+        "0.5%",
+        "percent"
+      ],
+      "value": 22.38,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "sensitivity",
+        "1%",
+        "threshold"
+      ],
+      "value": 0.7725,
+      "decimals": 4
+    },
+    {
+      "path": [
+        "sensitivity",
+        "1%",
+        "percent"
+      ],
+      "value": 18.48,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "sensitivity",
+        "2%",
+        "threshold"
+      ],
+      "value": 0.8402,
+      "decimals": 4
+    },
+    {
+      "path": [
+        "sensitivity",
+        "2%",
+        "percent"
+      ],
+      "value": 15.03,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "sensitivity",
+        "5%",
+        "threshold"
+      ],
+      "value": 0.9154,
+      "decimals": 4
+    },
+    {
+      "path": [
+        "sensitivity",
+        "5%",
+        "percent"
+      ],
+      "value": 10.46,
+      "decimals": 2
+    },
+    {
+      "path": [
+        "duplicates",
+        "exact_normalised_peak_lists"
+      ],
+      "value": 889
+    },
+    {
+      "path": [
+        "duplicates",
+        "tolerance_only_peak_lists"
+      ],
+      "value": 8
+    },
+    {
+      "path": [
+        "examples",
+        "triazines",
+        "score"
+      ],
+      "value": 0.99886,
+      "decimals": 5
+    },
+    {
+      "path": [
+        "examples",
+        "sulfones",
+        "score"
+      ],
+      "value": 0.99868,
+      "decimals": 5
+    },
+    {
+      "path": [
+        "examples",
+        "flavonoids",
+        "score"
+      ],
+      "value": 0.99778,
+      "decimals": 5
+    },
+    {
+      "path": [
+        "examples",
+        "triazines",
+        "query_id"
+      ],
+      "value": "MassSpecGymID0052678"
+    },
+    {
+      "path": [
+        "examples",
+        "triazines",
+        "reference_id"
+      ],
+      "value": "MassSpecGymID0045860"
+    },
+    {
+      "path": [
+        "examples",
+        "triazines",
+        "formula"
+      ],
+      "value": "C9H16ClN5"
+    },
+    {
+      "path": [
+        "examples",
+        "triazines",
+        "condition"
+      ],
+      "value": "[M+H]+|Orbitrap|60.0"
+    },
+    {
+      "path": [
+        "examples",
+        "triazines",
+        "query_fragment_peaks"
+      ],
+      "value": 13
+    },
+    {
+      "path": [
+        "examples",
+        "triazines",
+        "reference_fragment_peaks"
+      ],
+      "value": 12
+    },
+    {
+      "path": [
+        "examples",
+        "triazines",
+        "identical_peak_list"
+      ],
+      "value": false
+    },
+    {
+      "path": [
+        "examples",
+        "triazines",
+        "exact_peak_list"
+      ],
+      "value": false
+    },
+    {
+      "path": [
+        "examples",
+        "sulfones",
+        "query_id"
+      ],
+      "value": "MassSpecGymID0030777"
+    },
+    {
+      "path": [
+        "examples",
+        "sulfones",
+        "reference_id"
+      ],
+      "value": "MassSpecGymID0081201"
+    },
+    {
+      "path": [
+        "examples",
+        "sulfones",
+        "formula"
+      ],
+      "value": "C12H12N2O2S"
+    },
+    {
+      "path": [
+        "examples",
+        "sulfones",
+        "condition"
+      ],
+      "value": "[M+H]+|Orbitrap|15.0"
+    },
+    {
+      "path": [
+        "examples",
+        "sulfones",
+        "query_fragment_peaks"
+      ],
+      "value": 12
+    },
+    {
+      "path": [
+        "examples",
+        "sulfones",
+        "reference_fragment_peaks"
+      ],
+      "value": 12
+    },
+    {
+      "path": [
+        "examples",
+        "sulfones",
+        "identical_peak_list"
+      ],
+      "value": false
+    },
+    {
+      "path": [
+        "examples",
+        "sulfones",
+        "exact_peak_list"
+      ],
+      "value": false
+    },
+    {
+      "path": [
+        "examples",
+        "flavonoids",
+        "query_id"
+      ],
+      "value": "MassSpecGymID0171929"
+    },
+    {
+      "path": [
+        "examples",
+        "flavonoids",
+        "reference_id"
+      ],
+      "value": "MassSpecGymID0050074"
+    },
+    {
+      "path": [
+        "examples",
+        "flavonoids",
+        "formula"
+      ],
+      "value": "C15H12O5"
+    },
+    {
+      "path": [
+        "examples",
+        "flavonoids",
+        "condition"
+      ],
+      "value": "[M+H]+|QTOF|55.0"
+    },
+    {
+      "path": [
+        "examples",
+        "flavonoids",
+        "query_fragment_peaks"
+      ],
+      "value": 28
+    },
+    {
+      "path": [
+        "examples",
+        "flavonoids",
+        "reference_fragment_peaks"
+      ],
+      "value": 29
+    },
+    {
+      "path": [
+        "examples",
+        "flavonoids",
+        "identical_peak_list"
+      ],
+      "value": false
+    },
+    {
+      "path": [
+        "examples",
+        "flavonoids",
+        "exact_peak_list"
+      ],
+      "value": false
+    },
+    {
+      "path": [
+        "breakdowns",
+        "collision_energy_outside_bands",
+        "within"
+      ],
+      "value": 18
+    },
+    {
+      "path": [
+        "breakdowns",
+        "collision_energy_outside_bands",
+        "percent"
+      ],
+      "value": 25.0,
+      "decimals": 2
+    }
+  ]
+}

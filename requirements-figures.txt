@@ -1,0 +1,4 @@
+-r requirements.txt
+matplotlib==3.10.9
+rdkit==2026.9.1
+pillow==12.2.0

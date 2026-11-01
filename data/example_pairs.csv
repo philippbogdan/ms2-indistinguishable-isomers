@@ -1,0 +1,4 @@
+pair_id,query_id,reference_id,query_name,reference_name,formula,condition,adduct,instrument_type,collision_energy,query_fold,reference_fold,score,query_fragment_peaks,reference_fragment_peaks,identical_peak_list,exact_peak_list
+triazines,MassSpecGymID0052678,MassSpecGymID0045860,Propazine,Terbuthylazine,C9H16ClN5,[M+H]+|Orbitrap|60.0,[M+H]+,Orbitrap,60.0,train,train,0.998864697796166,13,12,False,False
+sulfones,MassSpecGymID0030777,MassSpecGymID0081201,"4,4'-Diaminodiphenyl sulfone","3,3'-Diaminodiphenyl sulfone",C12H12N2O2S,[M+H]+|Orbitrap|15.0,[M+H]+,Orbitrap,15.0,train,train,0.9986832643198281,12,12,False,False
+flavonoids,MassSpecGymID0171929,MassSpecGymID0050074,Naringenin chalcone,Naringenin,C15H12O5,[M+H]+|QTOF|55.0,[M+H]+,QTOF,55.0,train,train,0.997783775260636,28,29,False,False

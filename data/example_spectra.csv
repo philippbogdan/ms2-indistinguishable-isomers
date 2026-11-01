@@ -1,0 +1,7 @@
+pair_id,role,name,source_row,spectrum_id,molecule_key,smiles,formula,adduct,instrument_type,collision_energy,condition,fold,precursor_mz,parent_mass,peak_count,fragment_peak_count
+triazines,query,Propazine,42335,MassSpecGymID0052678,WJNRPILHGGKWCK,CC(C)Nc1nc(Cl)nc(NC(C)C)n1,C9H16ClN5,[M+H]+,Orbitrap,60.0,[M+H]+|Orbitrap|60.0,train,230.1167,229.109424,14,13
+triazines,reference,Terbuthylazine,37697,MassSpecGymID0045860,FZXISNSWEXTPMF,CCNc1nc(Cl)nc(NC(C)(C)C)n1,C9H16ClN5,[M+H]+,Orbitrap,60.0,[M+H]+|Orbitrap|60.0,train,230.1167,229.109424,13,12
+sulfones,query,"4,4'-Diaminodiphenyl sulfone",24960,MassSpecGymID0030777,MQJKPEGWNLWLTK,Nc1ccc(S(=O)(=O)c2ccc(N)cc2)cc1,C12H12N2O2S,[M+H]+,Orbitrap,15.0,[M+H]+|Orbitrap|15.0,train,249.0692,248.061924,13,12
+sulfones,reference,"3,3'-Diaminodiphenyl sulfone",63853,MassSpecGymID0081201,LJGHYPLBDBRCRZ,Nc1cccc(S(=O)(=O)c2cccc(N)c2)c1,C12H12N2O2S,[M+H]+,Orbitrap,15.0,[M+H]+|Orbitrap|15.0,train,249.0692,248.061924,13,12
+flavonoids,query,Naringenin chalcone,115054,MassSpecGymID0171929,YQHMWTPYORBCMF,O=C(C=Cc1ccc(O)cc1)c1c(O)cc(O)cc1O,C15H12O5,[M+H]+,QTOF,55.0,[M+H]+|QTOF|55.0,train,273.076443484,272.069167484,28,28
+flavonoids,reference,Naringenin,40549,MassSpecGymID0050074,FTVWIRXFELQLPI,O=C1CC(c2ccc(O)cc2)Oc2cc(O)cc(O)c21,C15H12O5,[M+H]+,QTOF,55.0,[M+H]+|QTOF|55.0,train,273.076443484,272.069167484,29,29
