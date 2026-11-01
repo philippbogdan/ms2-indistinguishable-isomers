@@ -1,6 +1,8 @@
 # 11,554 isomer comparisons that look like repeats
 
-Use these measured spectra to test structure-identification methods and find pairs worth measuring again. In MassSpecGym, **11,554 of 62,535 comparisons (18.5%)** between different structures with the same molecular formula score inside the range of repeated measurements of the same molecule.
+Tandem mass spectrometry (MS/MS) helps identify small molecules, such as drugs and metabolites, in biological and environmental samples by giving them an electrical charge, selecting an ion by mass, breaking it through gas collisions and recording the fragment masses and intensities as a spectrum. MassSpecGym is an open benchmark for methods that identify molecular structures from these spectra. The isomers studied here have the same molecular formula but different atom connections, so their original mass alone cannot distinguish them. We compared their fragment spectra using a similarity score: **11,554 of 62,535 isomer comparisons (18.5%)** fall inside the range set by repeated measurements of the same molecule.
+
+Use these measured spectra to test structure-identification methods and find pairs worth measuring again.
 
 ![All 62,535 isomer comparisons plotted by precursor mass and fragment similarity, beside repeat-score distributions; 11,554 enter the shaded repeat range.](figures/isomer-atlas.png)
 
