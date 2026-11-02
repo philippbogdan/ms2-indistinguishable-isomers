@@ -34,14 +34,14 @@ Overlap is **16.28% on Orbitrap** and **21.37% on QTOF**, using each category's 
 
 Changing the lower repeat quantile from **0.5% to 5%** moves overlap from **22.38% to 10.46%**. Removing numerically equal lists leaves **10,657 comparisons (17.04%)** at the main cutoff, keeping the original denominator as both curves do.
 
-## What this does not show
+## Assumptions made
 
-- Overlap under this score does not prove that structures are indistinguishable: another similarity, fine intensity differences or another measurement may separate them.
-- This is a selected part of one library, not a population estimate: instrument and energy are recorded for **52.7%** of spectra, and stereoisomers share a molecule key.
-- Both molecules must occur under the same recorded condition, but the best reference can come from another condition. This happens in **47.5%** of flagged comparisons; energy values are not a shared scale across instruments.
-- Comparisons are dependent and favour heavily measured molecules. Duplicate lists and possible annotation errors remain; the three examples are selected illustrations.
+- Molecules are defined by atom connectivity, so stereoisomers share a molecule key.
+- Both molecules must occur under the same recorded adduct, instrument and energy. The best reference is selected across all conditions with the same adduct; energy values are used as recorded.
+- Overlap is defined by the documented fragment score and training-repeat cutoff, with the same reference-search rule for repeats and isomers.
+- Comparisons count each eligible query spectrum against each eligible isomer molecule, giving more weight to heavily measured molecules. Comparisons are dependent, and the overlap share is pooled and descriptive.
 
-[Definitions and assumptions](REPRODUCE.md#exact-definitions), [alternative denominators and repeat agreement](results/README.md), and [figure details](figures/README.md) give the full qualifications.
+See [exact definitions](REPRODUCE.md#exact-definitions), [coverage and interpretation limits](results/README.md), and [example and figure qualifications](figures/README.md).
 
 ## How to use it
 
